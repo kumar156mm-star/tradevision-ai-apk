@@ -1,129 +1,101 @@
 # Privacy Policy for TradeVision AI
 
-**Effective Date: September 11, 2026**
+**Effective Date:** November 7, 2026  
+**Last Updated:** November 7, 2026  
+**Application Name:** TradeVision AI  
+**Package Name:** `com.aistudio.tradevision.vznvqa`  
 
-TradeVision AI ("we", "our", or "the App") respects your privacy. This Privacy Policy explains how information is handled when you use the TradeVision AI Android application.
-
-By using TradeVision AI, you agree to the practices described in this Privacy Policy.
-
-## 1. Information We Collect
-
-TradeVision AI does not currently require users to create an account or provide personal information such as their name, email address, phone number, or password.
-
-### Chart Images
-
-When you choose to upload a stock or candlestick chart to TradeVision AI, the selected image is transmitted to the AI processing service used by the App so that the App can analyze the chart and generate results.
-
-The chart may contain information visible in the image, including stock symbols, prices, dates, indicators, or other chart information.
-
-Please do not upload images containing unnecessary personal or sensitive information.
-
-### Analysis History
-
-TradeVision AI may store analysis-related information locally on your device to provide features such as analysis history and previously generated reports.
-
-You can use the application's available local data/history controls to remove locally stored analysis information.
-
-## 2. AI Processing and Third-Party Services
-
-TradeVision AI uses third-party artificial intelligence services to process uploaded chart images and generate analysis.
-
-Depending on the application's current configuration, these services may include Google Gemini or other third-party AI/API providers.
-
-Information sent to an AI provider is processed according to the provider's applicable privacy and data-handling policies.
-
-TradeVision AI uses these services to provide the requested chart-analysis functionality and does not use the submitted chart images for purposes unrelated to providing the App's functionality.
-
-## 3. Personal Information
-
-TradeVision AI does not currently require account registration and does not intentionally collect:
-
-- Your name
-- Your email address
-- Your phone number
-- Your home address
-- Your password
-- Your precise location
-- Your contacts
-- Your payment card information
-
-If account, subscription, payment, or other features are introduced in a future version, this Privacy Policy may be updated accordingly.
-
-## 4. Advertising
-
-If advertisements are displayed in TradeVision AI, third-party advertising providers may collect information such as advertising identifiers, device information, approximate location, and information about ad interactions in accordance with their own privacy policies.
-
-Where applicable, advertising services may use this information to provide, measure, and improve advertisements.
-
-## 5. Data Security
-
-We take reasonable measures to protect information transmitted through the App.
-
-Data transmitted between the App and supported services is protected using appropriate encryption in transit where supported by those services.
-
-However, no method of electronic transmission or storage can be guaranteed to be completely secure.
-
-## 6. Data Retention
-
-TradeVision AI does not require users to create an account.
-
-Analysis information that is stored locally by the App remains on the user's device unless the user removes it, uninstalls the App, or otherwise clears the application's data.
-
-Information transmitted to third-party AI or other service providers may be retained or processed according to the applicable provider's policies and the configuration of the service.
-
-## 7. Children's Privacy
-
-TradeVision AI is not specifically directed toward children.
-
-We do not knowingly collect personal information from children.
-
-If you believe that a child has provided personal information through the App, please contact us so that appropriate action can be taken.
-
-## 8. Financial and Educational Disclaimer
-
-TradeVision AI provides AI-generated educational and informational analysis of stock market charts.
-
-The App may provide technical-analysis information such as:
-
-- Candlestick patterns
-- Market structure
-- Trends
-- Support and resistance
-- Smart Money Concepts (SMC)
-- ICT-based concepts
-- Probabilistic market insights
-- Entry, stop-loss, and take-profit analysis
-
-This information is probabilistic and is provided for educational and informational purposes only.
-
-TradeVision AI does not execute stock trades, manage investment portfolios, or guarantee investment returns.
-
-Nothing provided by TradeVision AI should be considered financial, investment, or trading advice or a recommendation to buy or sell any security.
-
-Trading and investing involve substantial risk, including the possible loss of money. Users are responsible for their own investment decisions.
-
-## 9. Third-Party Links and Services
-
-The App may use or interact with third-party services, APIs, or software.
-
-Those third parties may have their own privacy policies and terms of service. We encourage users to review the privacy policies of any third-party services used by the App.
-
-## 10. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time.
-
-When changes are made, the updated version will be posted in this document and the effective date will be updated.
-
-We encourage users to periodically review this Privacy Policy.
-
-## 11. Contact Us
-
-If you have questions about this Privacy Policy or the privacy practices of TradeVision AI, please contact us at:
-
-**Email:** rajzq1235@gmail.com
+TradeVision AI ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how information is collected, used, processed, and protected when you use the TradeVision AI mobile application for Android.
 
 ---
 
-**TradeVision AI**
+## 1. Information Collection and Processing
 
-AI-powered educational stock chart and market structure analysis.
+### A. Chart Screenshots and Image Data
+* **Data Processed**: When you upload or select a candlestick chart screenshot for technical analysis, the image file is converted into base64 data and transmitted securely over encrypted HTTPS connections.
+* **Third-Party AI Provider**: Image data and user notes are processed exclusively by **NVIDIA AI Cloud Services** using the `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning` model via `https://integrate.api.nvidia.com/`.
+* **Purpose**: Chart image processing is conducted strictly to detect candlestick patterns, Smart Money Concepts (SMC), Order Blocks, Fair Value Gaps (FVG), and technical market structure to generate educational analysis reports.
+* **Data Retention**: Images are processed transiently in memory to perform the analysis and generate response text. We do not permanently store, sell, or monetize uploaded chart images. NVIDIA processes API requests in accordance with the [NVIDIA Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/).
+
+### B. Interactive AI Strategy Chat
+* **Data Processed**: Text prompts, questions, and active chart context entered into the AI Chat interface.
+* **Purpose**: Transmitted securely via HTTPS to NVIDIA AI Cloud services to provide educational technical analysis responses.
+* **Storage**: Chat conversations are maintained locally on your device during the active session.
+
+---
+
+## 2. Google AdMob & Advertising Identifiers
+
+* **Data Collected**: For users on the free tier, TradeVision AI integrates **Google AdMob** to display banner advertisements and rewarded video ads. AdMob may collect and process device information, advertising IDs (Android Advertising ID / AAID), IP addresses, coarse location data, and ad interaction metrics.
+* **Purpose**: To deliver contextually relevant advertisements and reward users with bonus chart analysis credits upon watching rewarded video ads.
+* **Compliance**: Google AdMob operates in full compliance with Google Play Developer Policies, EU User Consent guidelines, and global data protection standards.
+* **Pro Subscribers**: Verified TradeVision Pro subscribers receive a 100% ad-free experience. Banner and rewarded video ad requests are suppressed for active Pro accounts.
+* **Ad Preference Management**: Users can manage or reset their Android Advertising ID in Android System Settings -> Google -> Ads. For more details, review [Google's Advertising Privacy Policy](https://policies.google.com/technologies/ads).
+
+---
+
+## 3. Google Play Billing & Subscription Data
+
+* **Payment Processing**: All financial transactions, purchases, and subscriptions (Monthly Pro and Yearly Pro) are handled exclusively by **Google Play Billing** through the Google Play Store.
+* **No Financial Storage**: TradeVision AI never collects, stores, or accesses your credit card numbers, bank account details, or payment credentials.
+* **Token Verification & Entitlement**: When a purchase is initiated, a secure purchase token is generated by Google Play and verified via our Cloud Run backend API (`/api/billing/verify-purchase`) to confirm active subscription entitlement before unlocking Pro features.
+* **Subscription Restoration**: Restoring purchases queries active subscriptions tied to your signed-in Google Play Store account (`queryPurchasesAsync`). Pro access is restored cross-device as long as the user is signed into the same Google Play account.
+
+---
+
+## 4. Local On-Device Data Storage
+
+* **Saved Analysis History**: TradeVision AI stores generated technical analysis reports locally on your device using a local SQLite/Room database.
+* **User Preferences**: Local application settings (such as notification toggles, verified subscription status cache, and credit balances) are stored securely in Android `SharedPreferences`.
+* **Data Control**: You can clear all local application history, saved chart scans, and local cache at any time by navigating to **Settings -> Reset Local Data & Clear Cache**.
+
+---
+
+## 5. Third-Party Services Summary
+
+TradeVision AI integrates the following trusted third-party service providers:
+
+1. **NVIDIA AI Cloud Services**: Direct API integration for multimodal chart vision and technical strategy mentor chat. [NVIDIA Privacy Policy](https://www.nvidia.com/en-us/about-nvidia/privacy-policy/)
+2. **Google AdMob**: Advertising platform for free tier banner and rewarded video ads. [Google Privacy Policy](https://policies.google.com/privacy)
+3. **Google Play Services & Billing**: Application distribution, update management, and subscription processing. [Google Play Terms](https://play.google.com/about/play-terms/)
+
+---
+
+## 6. Data Security
+
+We implement industry-standard administrative, technical, and physical security measures to safeguard your information:
+* All network communication between the app, backend, and NVIDIA AI API endpoints is encrypted using Transport Layer Security (TLS 1.2 / TLS 1.3 / HTTPS).
+* Sensitive credentials and API configuration keys are stored in hardware-isolated Android KeyStore (TEE / StrongBox) using AES-256-GCM encryption (`NvidiaCredentialVault`).
+* No plain text credentials or user data are logged or exposed.
+
+---
+
+## 7. Children's Privacy
+
+TradeVision AI is designed for general audiences interested in financial market technical analysis and is not directed to children under the age of 13 (or under 16 in the European Union). We do not knowingly collect or solicit personal information from children. If we become aware that a child has provided us with personal information, we will take steps to delete such data immediately.
+
+---
+
+## 8. Data Retention & User Rights
+
+* **Retention Period**: Local analysis history remains on your device until manually deleted or cleared via app settings. API request payloads sent to NVIDIA are transiently processed during API execution.
+* **Your Rights**: You have the right to access, export, or delete your local data at any time by using the built-in reset controls in app Settings or uninstalling the application.
+
+---
+
+## 9. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. Updated versions will be published within the application and at our official Privacy Policy web URL (`https://kumar156mm-star.github.io/tradevision-ai-apk/privacy-policy.html`). We encourage you to review this policy periodically.
+
+---
+
+## 10. Contact Information
+
+If you have questions, concerns, or requests regarding this Privacy Policy or your data privacy, please contact us:
+
+* **Email**: support@tradevision.ai  
+* **GitHub Repository**: [kumar156mm-star/tradevision-ai-apk](https://github.com/kumar156mm-star/tradevision-ai-apk)  
+* **Official Privacy URL**: [https://kumar156mm-star.github.io/tradevision-ai-apk/privacy-policy.html](https://kumar156mm-star.github.io/tradevision-ai-apk/privacy-policy.html)  
+
+---
+*Disclaimer: TradeVision AI provides technical chart scanning for educational and informational purposes only. It does not provide financial or investment advice.*
